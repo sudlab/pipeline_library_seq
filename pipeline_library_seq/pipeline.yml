@@ -1,0 +1,18 @@
+###Merge options with NGmerge###
+number_of_threads: 2
+min_alignment: 30
+fraction_mismatch_align: 0.10
+
+###Motif content options###
+#List of motifs (with Ts)
+motifs_list: "/shared/sudlab1/General/projects/SynthUTR_hepG2_a549/motif_merge_linkers/correct_strandedness/highstab_list_filtered_oligos.list"
+#Linker sequence
+linker: GGCGAT
+#Upstream and downstream sequences of insert
+upstream: GCGGCCGC
+downstream: TCGTACG
+#RE sites 
+5primeRE: GGCGCC
+3primeRE: ATCGAT
+
+
